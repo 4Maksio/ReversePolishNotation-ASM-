@@ -7,7 +7,7 @@
 ## [EN]
 
 The program accepts a mathematical operation of up to 25 characters with numbers in the 16-bit range - up to 2^15 and writes them in Reverse Polish Notation (RPN) and then prints the result of this operation.
-The executable file (COM) is designed to run on [DosBox](https://www.dosbox.com/download.php?main=1), [DosBox-X](https://dosbox-x.com/) or a regular Dos instance.
+The executable file (COM) is designed to run on [DosBox](https://www.dosbox.com/download.php?main=1), [DosBox-X](https://dosbox-x.com/), or a regular Dos instance.
 
 The program I created has the following properties:
 * 16-bit architecture.
@@ -19,7 +19,7 @@ The program I created has the following properties:
 * Input proofing - prints an error in cases:
    * A character other than a number, space, brackets, or operator;
    * Incorrect notation of the action - forgotten brackets, two operators next to each other.
-* Overflow detection - if the result is outside the 16-bit range, an error merrage is printed.
+* Overflow detection - if the result is outside the 16-bit range, an error message is printed.
 * No support for negative numbers - you can enter a negative number only in the way _(0-x)_
 
 ---
